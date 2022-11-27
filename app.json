@@ -120,7 +120,7 @@
         },
         "PMFILTER": {
             "description": "PM AutoFilter. set True to on / False to off",
-            "value": "True",
+            "value": "False",
             "required": false
         },
         "G_FILTER": {
