@@ -42,7 +42,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton("💢 Wᴏʀᴋɪɴɢ Gʀᴏᴜᴘ 💢", url="https://t.me/Akvmoviehub")
             ],[
-            InlineKeyboardButton("📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢", url="https://t.me/Ak_Updates_botz")
+            InlineKeyboardButton("📢 OTT HUB 📢", url="https://t.me/ottmoviehub4"),
+            InlineKeyboardButton("🎥 ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Ak_Updates_botz")
             ],[      
             InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿 ℹ️", callback_data="help"),
             InlineKeyboardButton("💫 𝙰𝙱𝙾𝚄𝚃 💫", callback_data="about")
@@ -93,7 +94,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton("💢 Wᴏʀᴋɪɴɢ Gʀᴏᴜᴘ 💢", url="https://t.me/Akvmoviehub")
             ],[
-            InlineKeyboardButton("📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢", url="https://t.me/Ak_Updates_botz")
+            InlineKeyboardButton("📢 OTT HUB 📢", url="https://t.me/ottmoviehub4"),
+            InlineKeyboardButton("🎥 ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Ak_Updates_botz")
             ],[      
             InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿 ℹ️", callback_data="help"),
             InlineKeyboardButton("💫 𝙰𝙱𝙾𝚄𝚃 💫", callback_data="about")
