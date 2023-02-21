@@ -38,14 +38,20 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention, message.from_user.username, temp.U_NAME))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton("★❗ 𝐒𝐞𝐫𝐢𝐞𝐬𝐇𝐮𝐛™ ❗★", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton("★❗ 𝐒𝐞𝐫𝐢𝐞𝐬𝐇𝐮𝐛™ ❗★", url="https://t.me/AkSeriesHub")
             ],[
-            InlineKeyboardButton("💢 Wᴏʀᴋɪɴɢ Gʀᴏᴜᴘ 💢", url="https://t.me/Akvmoviehub")
+            InlineKeyboardButton("۞🪐 𝙒𝙊𝙍𝙆𝙄𝙉𝙂 𝙂𝙍𝙊𝙐𝙋 🪐۞", url="https://t.me/Akvmoviehub")
+
             ],[
-            InlineKeyboardButton("📢 OTT HUB 📢", url="https://t.me/ottmoviehub5"),
-            InlineKeyboardButton("🎥 ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Ak_Updates_botz")
+
+            InlineKeyboardButton("✪🍿 𝕆𝕋𝕋 ℍ𝕌𝔹 🍿✪", url="https://t.me/OTTMOVIEHUB5"),
+
+            InlineKeyboardButton("❄︎📽️ Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 📽️❄︎", url="https://t.me/Ak_Updates_botz")
+
             ],[      
+
             InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿 ℹ️", callback_data="help"),
+
             InlineKeyboardButton("💫 𝙰𝙱𝙾𝚄𝚃 💫", callback_data="about")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -90,12 +96,12 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton("★❗ 𝐒𝐞𝐫𝐢𝐞𝐬𝐇𝐮𝐛™ ❗★", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton("★❗ 𝐒𝐞𝐫𝐢𝐞𝐬𝐇𝐮𝐛™ ❗★", url="https://t.me/AkSeriesHub")
             ],[
-            InlineKeyboardButton("💢 Wᴏʀᴋɪɴɢ Gʀᴏᴜᴘ 💢", url="https://t.me/Akvmoviehub")
+            InlineKeyboardButton("۞🪐 𝙒𝙊𝙍𝙆𝙄𝙉𝙂 𝙂𝙍𝙊𝙐𝙋 🪐۞", url="https://t.me/Akvmoviehub")
             ],[
-            InlineKeyboardButton("📢 OTT HUB 📢", url="https://t.me/ottmoviehub4"),
-            InlineKeyboardButton("🎥 ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Ak_Updates_botz")
+            InlineKeyboardButton("✪🍿 𝕆𝕋𝕋 ℍ𝕌𝔹 🍿✪", url="https://t.me/OTTMOVIEHUB5"),
+            InlineKeyboardButton("❄︎📽️ Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 📽️❄︎", url="https://t.me/Ak_Updates_botz")
             ],[      
             InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿 ℹ️", callback_data="help"),
             InlineKeyboardButton("💫 𝙰𝙱𝙾𝚄𝚃 💫", callback_data="about")
