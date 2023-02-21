@@ -57,6 +57,10 @@
 
 ## Deploy to Railway
 
+-----New🗿🗿✨✨------
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/2sYzOY)
+
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/YoSpkP)
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/HgVba-)
