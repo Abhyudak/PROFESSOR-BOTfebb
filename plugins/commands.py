@@ -41,23 +41,17 @@ async def start(client, message):
             InlineKeyboardButton("★❗ 𝐒𝐞𝐫𝐢𝐞𝐬𝐇𝐮𝐛™ ❗★", url="https://t.me/AkSeriesHub")
             ],[
             InlineKeyboardButton("۞🪐 𝙒𝙊𝙍𝙆𝙄𝙉𝙂 𝙂𝙍𝙊𝙐𝙋 🪐۞", url="https://t.me/Akvmoviehub")
-
             ],[
-
             InlineKeyboardButton("✪🍿 𝕆𝕋𝕋 ℍ𝕌𝔹 🍿✪", url="https://t.me/OTTMOVIEHUB5"),
-
             InlineKeyboardButton("❄︎📽️ Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 📽️❄︎", url="https://t.me/Ak_Updates_botz")
-
             ],[      
-
             InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿 ℹ️", callback_data="help"),
-
             InlineKeyboardButton("💫 𝙰𝙱𝙾𝚄𝚃 💫", callback_data="about")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
         m=await message.reply_sticker("CAACAgIAAxkBAAEH2HNj9RDQ64NKiOMT83F8YNK58QABdQwAAsIVAAJQHUlIU5T9UMNV6jguBA")
-        await asyncio.sleep(1)
+        await asyncio.sleep(2)
         await m.delete()
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -109,7 +103,7 @@ async def start(client, message):
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
         m=await message.reply_sticker("CAACAgIAAxkBAAEH2HNj9RDQ64NKiOMT83F8YNK58QABdQwAAsIVAAJQHUlIU5T9UMNV6jguBA")
-        await asyncio.sleep(1)
+        await asyncio.sleep(2)
         await m.delete()
         await message.reply_photo(
             photo=random.choice(PICS),
