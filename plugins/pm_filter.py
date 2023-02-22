@@ -822,12 +822,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("🤨 Curiosity is a little more, isn't it? 😁", show_alert=True)
     elif query.data == "start":                        
         buttons = [[
-            InlineKeyboardButton("➕️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton("★❗ 𝐒𝐞𝐫𝐢𝐞𝐬𝐇𝐮𝐛™ ❗★", url="https://t.me/AkSeriesHub")
             ],[
-            InlineKeyboardButton("💢 Wᴏʀᴋɪɴɢ Gʀᴏᴜᴘ 💢", url="https://t.me/Akvmoviehub")
+            InlineKeyboardButton("۞🪐 𝙒𝙊𝙍𝙆𝙄𝙉𝙂 𝙂𝙍𝙊𝙐𝙋 🪐۞", url="https://t.me/Akvmoviehub")
             ],[
-            InlineKeyboardButton("📢 OTT HUB 📢", url="https://t.me/ottmoviehub4"),
-            InlineKeyboardButton("🎥 ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Ak_Updates_botz")
+            InlineKeyboardButton("✪🍿 𝕆𝕋𝕋 ℍ𝕌𝔹 🍿✪", url="https://t.me/OTTMOVIEHUB5"),
+            InlineKeyboardButton("❄︎📽️ Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 📽️❄︎", url="https://t.me/Ak_Updates_botz")
             ],[      
             InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿 ℹ️", callback_data="help"),
             InlineKeyboardButton("💫 𝙰𝙱𝙾𝚄𝚃 💫", callback_data="about")
